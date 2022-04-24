@@ -93,6 +93,7 @@ class SuperUserAdmin(BaseUserAdmin):
 
     def save_model(self, request, obj, form, change):
         obj.is_staff = True
+        obj.is_superuser = True
         super(SuperUserAdmin, self).save_model(request, obj, form, change)
 
     def get_queryset(self, request):
