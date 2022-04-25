@@ -8,7 +8,7 @@ For testing the accessibility of super users , ‍‍‍‍create a super user v
 And to have staff users you can manually add an staff user , log in and test the staff's permissions.
 
 A group is created manually in database, called 'staff' that determines the accessibility of staff users.
-This project is minimal one ,so it does not develope programmatically.
+This project is a minimal one ,so it does not develope programmatically.
 But in future, it can.
 
 And at the end, you can test the APIs via token authentication.
